@@ -28,7 +28,8 @@ const Cart = () => (
                 <button
                   type="button"
                   className="remove-all-btn"
-                  onClick={onClickRemoveAllBtn}>
+                  onClick={onClickRemoveAllBtn}
+                >
                   Remove All
                 </button>
                 <CartListView />
